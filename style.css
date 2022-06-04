@@ -1,0 +1,53 @@
+body {
+    background-color:darkslateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.display {
+    text-align: center;
+    font-size: 90px;
+    color:#38289f;
+    font-weight: 700;
+    margin: 0;
+}
+
+.Holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: #7c71c1;
+}
+
+button {
+    width: 90px;
+    height: 90px;
+    padding: 2%;
+    margin: 3px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #ada6d8;
+    border-radius: 50px;
+    border: 0.5px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+button:hover{
+    background-color: white;
+
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
